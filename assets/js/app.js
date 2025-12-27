@@ -61,7 +61,6 @@ function judge() {
   const user = normalize(answerInput.value);
   const correct = normalize(q.a);
 
-
   const ok = user === correct;
   resultBox.value = ok ? "正解" : "不正解";
   correctBox.value = q.a ?? "";
@@ -141,6 +140,7 @@ async function init() {
     });
 
     checkBtn.addEventListener("click", judge);
+    prevBtn.addEventListener("click", prevQuestion);
     nextBtn.addEventListener("click", nextQuestion);
 
     // Enterで判定、Shift+Enterは無視（入力欄なので）
@@ -157,6 +157,3 @@ async function init() {
 }
 
 init();
-
-
-
