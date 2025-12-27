@@ -8,8 +8,8 @@ body { margin: 0; padding: 0; font-family: system-ui, -apple-system, "Segoe UI",
 .select, .input, .textarea { width: 100%; padding: 5px; border: 2px solid #0aa; background:#fff; color:#000; font-size: 16px; }
 .input.small { width: 120px; }
 .textarea { height: 19vh; resize: vertical; }
-.btn { padding: 8px 12px; border: 0; border-radius: 8px; cursor: pointer; font-weight: 800; font-size: 16px; }
-.btn.ok { background: #7CFC9A; }
+.btn { padding: 8px 12px; border: 0; border-radius: 8px; cursor: pointer; font-weight: 800; font-size: 16px; touch-action: manipulation; }
+.btn.ok { background: #7CFC9A; color:#000; }
 .btn.prev { background: #FFD700; color:#000; }
 .btn.next { background: #1e90ff; color:#fff; }
 .hint { margin-top: 6px; color: #9ad; min-height: 1.2em; font-size: 12px; }
@@ -19,5 +19,5 @@ body { margin: 0; padding: 0; font-family: system-ui, -apple-system, "Segoe UI",
   .label { font-size: 10px; }
   .input.small { width: 100%; }
   .app { padding: 5px; }
+  .btn { padding: 8px 10px; font-size: 14px; }
 }
-
