@@ -7,6 +7,7 @@ const answerInput = $("answerInput");
 const checkBtn = $("checkBtn");
 const resultBox = $("resultBox");
 const correctBox = $("correctBox");
+const prevBtn = $("prevBtn");
 const nextBtn = $("nextBtn");
 const hint = $("hint");
 
@@ -156,5 +157,6 @@ async function init() {
 }
 
 init();
+
 
 
