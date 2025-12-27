@@ -68,6 +68,16 @@ function judge() {
   setHint(ok ? "いいね！" : "惜しい！");
 }
 
+function prevQuestion() {
+  if (!currentQuiz) return;
+
+  currentPos -= 1;
+  if (currentPos < 0) {
+    currentPos = currentQuiz.questions.length - 1; // 最後に戻る
+  }
+  renderQuestion();
+}
+
 function nextQuestion() {
   if (!currentQuiz) return;
 
@@ -146,4 +156,5 @@ async function init() {
 }
 
 init();
+
 
