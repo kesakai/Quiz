@@ -2,10 +2,11 @@
   { "id": 1, "title": "Q狼杯８", "file": "Q8.json" },
   { "id": 2, "title": "Q狼杯７", "file": "Q7.json" },
   { "id": 3, "title": "Q狼杯６", "file": "Q6.json" },
-  { "id": , "title": "ヒミツキチラボ７", "file": "labo7.json" } ,
-  { "id": , "title": "ヒミツキチラボ６", "file": "labo6.json" } ,
-  { "id": , "title": "ヒミツキチラボ５", "file": "labo5.json" } 
+  { "id": 4, "title": "ヒミツキチラボ７", "file": "labo7.json" } ,
+  { "id": 5, "title": "ヒミツキチラボ６", "file": "labo6.json" } ,
+  { "id": 6, "title": "ヒミツキチラボ５", "file": "labo5.json" } 
 ]
+
 
 
 
