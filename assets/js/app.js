@@ -60,10 +60,6 @@ function judge() {
   const user = normalize(answerInput.value);
   const correct = normalize(q.a);
 
-  if (!user) {
-    setHint("解答を入力してください。");
-    return;
-  }
 
   const ok = user === correct;
   resultBox.value = ok ? "正解" : "不正解";
@@ -150,3 +146,4 @@ async function init() {
 }
 
 init();
+
